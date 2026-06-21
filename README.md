@@ -1,17 +1,37 @@
-# binmart
+BinMart - Aplikasi Marketplace Lokal Binjai
+BinMart adalah aplikasi marketplace berbasis mobile yang dikembangkan sebagai proyek akhir untuk membantu para pelaku usaha lokal di kota Binjai dalam memasarkan produk mereka secara digital. Aplikasi ini mencakup sistem untuk pembeli dan dashboard manajemen khusus untuk penjual (mitra).
 
-A new Flutter project.
+🚀 Fitur Utama
+Untuk Pembeli:
+Autentikasi Aman: Sistem masuk dan daftar yang terintegrasi.
 
-## Getting Started
+Antarmuka Ramah Pengguna: Pencarian dan penelusuran produk yang intuitif.
 
-This project is a starting point for a Flutter application.
+Untuk Penjual (Mitra):
+Dashboard Penjual Profesional: Memantau statistik toko, total produk, dan pendapatan secara real-time.
 
-A few resources to get you started if this is your first Flutter project:
+Manajemen Produk: Kemudahan menambah, mengaktifkan, dan menghapus produk dagangan.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Manajemen Pesanan: Sistem kelola pesanan masuk hingga selesai.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Profil Toko Dinamis: Pengaturan banner toko dan foto profil yang terintegrasi dengan sistem cloud storage.
+
+🛠 Teknologi yang Digunakan
+Framework: Flutter
+
+State Management: BLoC (Business Logic Component)
+
+Backend & Database: Supabase (untuk database dan storage gambar)
+
+Autentikasi: Firebase Auth
+
+Integrasi Lainnya: Image Picker untuk kebutuhan unggah gambar produk/profil.
+
+📦 Struktur Proyek
+Proyek ini dikembangkan dengan arsitektur yang modular untuk memastikan kode tetap bersih dan mudah dikembangkan:
+
+core/: Berisi model, repository, dan service utama.
+
+features/: Berisi fitur-fitur aplikasi (Auth, Home, Seller Dashboard, Profile).
+
+cubit/: Logic state management untuk setiap fitur.
