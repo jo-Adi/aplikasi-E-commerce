@@ -1,37 +1,78 @@
-BinMart - Aplikasi Marketplace Lokal Binjai
-BinMart adalah aplikasi marketplace berbasis mobile yang dikembangkan sebagai proyek akhir untuk membantu para pelaku usaha lokal di kota Binjai dalam memasarkan produk mereka secara digital. Aplikasi ini mencakup sistem untuk pembeli dan dashboard manajemen khusus untuk penjual (mitra).
+# BinMart - Marketplace Lokal Binjai
 
-🚀 Fitur Utama
-Untuk Pembeli:
-Autentikasi Aman: Sistem masuk dan daftar yang terintegrasi.
+## Deskripsi Proyek
 
-Antarmuka Ramah Pengguna: Pencarian dan penelusuran produk yang intuitif.
+BinMart adalah aplikasi marketplace berbasis Flutter yang dikembangkan sebagai proyek akhir untuk membantu pelaku UMKM dan usaha lokal di Kota Binjai dalam memasarkan produk mereka secara digital. Aplikasi ini menyediakan platform bagi penjual untuk mengelola toko dan produk, serta memudahkan pelanggan dalam mencari dan membeli produk secara online.
 
-Untuk Penjual (Mitra):
-Dashboard Penjual Profesional: Memantau statistik toko, total produk, dan pendapatan secara real-time.
+## Fitur Utama
 
-Manajemen Produk: Kemudahan menambah, mengaktifkan, dan menghapus produk dagangan.
+### Pembeli
 
-Manajemen Pesanan: Sistem kelola pesanan masuk hingga selesai.
+* Registrasi dan Login Pengguna
+* Melihat Daftar Produk
+* Pencarian Produk
+* Detail Produk
+* Keranjang Belanja
+* Manajemen Profil Pengguna
 
-Profil Toko Dinamis: Pengaturan banner toko dan foto profil yang terintegrasi dengan sistem cloud storage.
+### Penjual
 
-🛠 Teknologi yang Digunakan
-Framework: Flutter
+* Dashboard Penjual
+* Manajemen Produk
+* Upload Gambar Produk
+* Pengelolaan Banner Toko
+* Pengelolaan Profil Toko
+* Monitoring Produk
 
-State Management: BLoC (Business Logic Component)
+## Teknologi yang Digunakan
 
-Backend & Database: Supabase (untuk database dan storage gambar)
+* Flutter
+* Dart
+* Firebase Authentication
+* Supabase Storage
+* BLoC State Management
+* Cloud Storage
+* REST API
 
-Autentikasi: Firebase Auth
+## Struktur Proyek
 
-Integrasi Lainnya: Image Picker untuk kebutuhan unggah gambar produk/profil.
+```text
+lib/
+├── core/
+├── features/
+├── models/
+├── services/
+├── repositories/
+├── cubit/
+└── widgets/
+```
 
-📦 Struktur Proyek
-Proyek ini dikembangkan dengan arsitektur yang modular untuk memastikan kode tetap bersih dan mudah dikembangkan:
+## Cara Menjalankan Aplikasi
 
-core/: Berisi model, repository, dan service utama.
+1. Clone repository
 
-features/: Berisi fitur-fitur aplikasi (Auth, Home, Seller Dashboard, Profile).
+```bash
+git clone <repository-url>
+```
 
-cubit/: Logic state management untuk setiap fitur.
+2. Install dependency
+
+```bash
+flutter pub get
+```
+
+3. Jalankan aplikasi
+
+```bash
+flutter run
+```
+
+## Tujuan Pengembangan
+
+Aplikasi ini dikembangkan sebagai Final Project untuk memenuhi tugas akademik pada program studi Teknik Informatika serta sebagai solusi digitalisasi pemasaran produk UMKM lokal.
+
+## Pengembang
+
+Join Nainggolan
+
+Program Studi Teknik Informatika
