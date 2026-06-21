@@ -69,10 +69,13 @@ flutter run
 
 ## Tujuan Pengembangan
 
-Aplikasi ini dikembangkan sebagai Final Project untuk memenuhi tugas akademik pada program studi Teknik Informatika serta sebagai solusi digitalisasi pemasaran produk UMKM lokal.
+Aplikasi ini dikembangkan sebagai Final Project untuk memenuhi tugas akademik pada program studi Sistem Informasi serta sebagai solusi digitalisasi pemasaran produk UMKM lokal.
 
 ## Pengembang
 
-Join Nainggolan
+Joinadi Tama Buaton
 
-Program Studi Teknik Informatika
+Program Studi Sistem Informasi
+
+## Dosen Pengampu 
+Kristina Annatasia Br Sitepu, M.Kom
